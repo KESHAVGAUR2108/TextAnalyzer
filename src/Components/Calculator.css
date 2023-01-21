@@ -1,0 +1,13 @@
+.col{
+    width: 22%;
+    padding: 5px;
+}
+
+.btn-secondary{
+    width: 100%;
+}
+
+.btn:focus,.btn-active{
+    outline: none;
+    box-shadow: none;
+}
