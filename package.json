@@ -2,7 +2,7 @@
   "name": "my-app1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://KESHAVGAUR2108.github.io/TextEditor",
+  "homepage": "http://KESHAVGAUR2108.github.io/TextAnalyzer-Cal",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
