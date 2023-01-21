@@ -43,11 +43,11 @@ export default function Navbar({mode,setMode,title,showAlert}) {
 
   function dropdownActiveHandle() {
     if(dropdown === 'show'){
-      $('myDropdown').hide();
+      $('#myDropdown').hide();
       setDropdown('hide');
     }
     else{
-      $('myDropdown').show();
+      $('#myDropdown').show();
       setDropdown('show');
     }
   };
@@ -60,7 +60,7 @@ export default function Navbar({mode,setMode,title,showAlert}) {
       </button>
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul id='myDropdown' className="navbar-nav mr-auto">
+      <ul id='#myDropdown' className="navbar-nav mr-auto">
         <li className="nav-item">
           <Link className="nav-link"  to="/">Text Editor</Link>
         </li>
